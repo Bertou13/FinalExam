@@ -3,4 +3,4 @@
 /usr/bin/mysql -u "${wordpress}" \
     -p"${Santos13}" \
     "${wordpressuser}" \
-    | gzip > "/opt/backup/$(date +%F)_Mysql.sql.gz"
+    | gzip > "/opt/backup/$(date +%F)_wordpress.sql.gz"
